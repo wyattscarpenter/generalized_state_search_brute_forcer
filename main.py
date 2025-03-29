@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """Hi, welcome to the readme, which is just symlinked to the main.py file.
 This is Wyatt S Carpenter's generalized state search brute forcer, a program which implements a common pattern I've often seen and need.
 Given a set of rules (lambdas), an initial state, and a desired state, this program uses a breadth-first search on the state space to find a solution (also: guaranteed to be one of the shortest solutions, funny enough!
