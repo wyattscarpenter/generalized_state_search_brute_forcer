@@ -48,7 +48,7 @@ def generalized_state_search_brute_forcer[S](initial_state: S, desired_state: S,
     for result in production_rule(s):
       dprint(f"Considering result {result}:")
       hashable_result = make_hashable(result)
-      dprint(f"{hashable_result=}")
+      #dprint(f"{hashable_result=}")
       if desire_function(result):
         dprint("We win... so collect and return the state steps.")
         state_steps = [result, s]
